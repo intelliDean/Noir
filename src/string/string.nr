@@ -1,3 +1,5 @@
+use std::convert::AsPrimitive;
+
 #[test]
 fn test_string_operation() {
     let message = "hello world";
@@ -29,4 +31,12 @@ fn test_string_format() {
     let four = 2 + 2;
     let s = f"Two plus two is: {four}";
     println(s);
+}
+
+#[test]
+fn test_string_format_expanded() {
+let four = 2 + 2;
+
+// Prints "This is not expanded: {four}"
+println(f"This is not expanded: {{four}}"); //to print {four}
 }
