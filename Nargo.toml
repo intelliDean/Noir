@@ -1,0 +1,15 @@
+
+
+[package]
+name = "noir_test"
+type = "bin"
+authors = ["Dean"]
+description = "Getting started with Noir"
+entry = "src/main.nr"
+version = "0.1.0"
+edition = "2024"
+publish = false
+license = "MIT"
+
+# [dependencies]
+# ecrecover = {tag = "v0.9.0", git = "https://github.com/colinnielsen/ecrecover-noir.git"}
